@@ -33,7 +33,7 @@ for i in rows:
                     k=k+1
 
         else:
-            break
+            continue
 
 print(df)
 '''
