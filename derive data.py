@@ -16,7 +16,7 @@ fp.set_preference("javascript.enabled", False)
 driver = webdriver.Firefox(firefox_binary=binary, firefox_profile=fp, capabilities=caps)
 
 
-
+# 定义函数，因为数都存在这个class下【通过对比网页】
 def outputresult(page_id, soup, output_list):
     for item in soup.find(class_='b_strategy_list '):
         try:

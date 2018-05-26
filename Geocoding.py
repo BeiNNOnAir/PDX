@@ -16,8 +16,8 @@ def getlnglat(address):
     return temp
 
 d = dict()
-file = open("data_total.json", "w")  # 建立json数据文件
-with open("data_total.csv", "r", encoding="utf-8") as csvfile:  # 打开csv
+file = open("data_total_TF.json", "w")  # 建立json数据文件
+with open("TF.csv", "r", encoding="utf-8") as csvfile:  # 打开csv
     reader = csv.reader(csvfile)
     for line in reader:  # 读取csv里的数据
         # 忽略第一行
